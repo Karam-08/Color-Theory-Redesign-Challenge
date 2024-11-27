@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#660000;
+    color: #b82222;
+}
+
+header{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    justify-content: center;
+}
+
+nav{
+    border: 5px double rgb(255, 0, 0);
+    background-color: rgb(84, 32, 32);
+    padding: 10px;
+}
+
+nav ul li{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+    padding: 5px;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(193, 63, 63);
+}
+
+nav a:hover{
+    color: #ff0000;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+#desc{
+    border: 5px solid rgb(184, 73, 73);
+    margin: 20px;
+    padding: 10px;
+    background-color: #3e0f0f;
+}
+
+#mail{
+    padding: 5px;
+    margin: 5px
+}
+
+#mail-input{
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+footer{
+    border: 5px double red;
+    position: fixed; /* Fixes the navbar down all the way to the bottom. Required for bottom 0 to work. */
+    text-align: center; 
+    padding: 10px;
+    background-color: rgb(84, 32, 32);
+    height: auto; /* Automatically fits in with the text */
+    bottom: 0; /* And stay down! */
+    width: 100%;
+}
+
