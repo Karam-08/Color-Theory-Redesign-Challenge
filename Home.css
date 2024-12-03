@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-color:#660000;
     color: #b82222;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: auto;
+}
+
+main{
+    margin-bottom: 75px;
 }
 
 header{
@@ -58,9 +64,33 @@ section{
     background-color: #3e0f0f;
 }
 
-#mail{
-    padding: 5px;
-    margin: 5px
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+    border: 5px double rgb(184, 73, 73);
+    background-color: #3e0f0f;
+}
+
+.container a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.container a:hover{
+    color: #ff0000;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#join{
+    margin-bottom: 15px;
+}
+
+#input{
+    margin-bottom: 15px;
 }
 
 #mail-input{
@@ -68,14 +98,40 @@ section{
     border-radius: 5px;
 }
 
+.antiMcDs{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer{
     border: 5px double red;
-    position: fixed; /* Fixes the navbar down all the way to the bottom. Required for bottom 0 to work. */
+    position: absolute;
     text-align: center; 
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(84, 32, 32);
     height: auto; /* Automatically fits in with the text */
-    bottom: 0; /* And stay down! */
     width: 100%;
 }
 
+.footerlinks{
+    float: left;
+    padding: 5px;
+}
+
+.sue{
+    float: right;
+    padding: 5px;
+}
+
+footer a{
+    color: rgb(193, 63, 63);
+    text-decoration: none;
+}
+
+footer a:hover{
+    font-size: 16.5px;
+    color: rgb(255, 0 , 0);
+    text-decoration: underline;
+}
